@@ -1,0 +1,12 @@
+# Core dependencies
+requests>=2.31.0
+
+# Optional: FastAPI deployment
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Optional: Enhanced analytics
+pandas>=2.1.0
+
+# Development
+pytest>=7.4.0
