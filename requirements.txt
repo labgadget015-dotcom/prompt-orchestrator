@@ -8,5 +8,8 @@ uvicorn>=0.24.0
 # Optional: Enhanced analytics
 pandas>=2.1.0
 
+# AI Core integration
+git+https://github.com/labgadget015-dotcom/ai-analyze-think-act-core.git@main#egg=ai-analyze-think-act-core
+
 # Development
 pytest>=7.4.0
