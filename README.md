@@ -217,6 +217,18 @@ Pull requests welcome! Priority areas:
 - Performance optimizations
 - Integration examples (Stripe, BigQuery, etc.)
 
+## Ecosystem
+
+This project is part of a connected suite of AI tools:
+
+| Repository | Description |
+|------------|-------------|
+| [ai-analyze-think-act-core](https://github.com/labgadget015-dotcom/ai-analyze-think-act-core) | 🧠 Core LLM analysis framework — ingest → analyze → recommend |
+| [ai-consulting-platform](https://github.com/labgadget015-dotcom/ai-consulting-platform) | 🛍️ E-commerce AI consulting platform (uses core) |
+| [analysis-os](https://github.com/labgadget015-dotcom/analysis-os) | 📊 Systematic analysis OS for consultants (uses core) |
+| [prompt-orchestrator](https://github.com/labgadget015-dotcom/prompt-orchestrator) | 🔀 Autonomous multi-stage prompt orchestration — routes and chains prompts across modules (uses core) |
+| [github-notifications-copilot](https://github.com/labgadget015-dotcom/github-notifications-copilot) | 🔔 AI-powered GitHub notification triage |
+
 ## License
 
 MIT License - see LICENSE file
