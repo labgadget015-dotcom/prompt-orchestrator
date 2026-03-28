@@ -6,7 +6,7 @@ Goal - Output - Limits - Data - Evaluation - Next steps
 from typing import Dict, Any
 import sys
 sys.path.append('..')
-from core import ModuleResult
+from orchestrator.core import ModuleResult
 
 
 class GOLDENAnalyzer:
