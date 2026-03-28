@@ -45,7 +45,7 @@ class PromptOrchestrator:
                 raise ValueError(f"Module '{module_name}' not registered")
                 
             module = self.modules[module_name]
-            result = module.run(self.llm, result, context)
+            result = module.run(self.llm, result.output if isinstance(result, ModuleResult) else result, context)
             
             # Log execution
             chain_log.append({
