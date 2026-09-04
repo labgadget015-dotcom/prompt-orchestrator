@@ -127,7 +127,7 @@ class TriageAgent:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model: str = "claude-3-5-haiku-20241022",
+        model: str = "claude-haiku-4-5-20251001",
         max_tokens: int = 1024,
     ) -> None:
         self.model = model
